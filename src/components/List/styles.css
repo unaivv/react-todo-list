@@ -1,0 +1,18 @@
+.completed{
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    background-color: #999;
+    opacity: 0.3;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: .3em;
+}
+
+.completed.true{
+    background-color: green;
+}
+.item span{
+    margin-left: 0.5em;
+    cursor: pointer;
+}
