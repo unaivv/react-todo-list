@@ -4,7 +4,7 @@ import Delete from '../Delete'
 
 export default function Todo({el, index}) {
 	return (
-		<li className="item" key={index}>
+		<li className="item">
 			<Checked completed={el.completed} index={index} />
 			{el.title}
 			<Edit initialValue={el.title} index={index} />

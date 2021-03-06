@@ -18,7 +18,7 @@ const ConnectedList = ({ todos }) => {
 			{todos.length === 0 && "There is no TODOs here. Add one here ⬇️"}
 			<ul>
 				{todos.map((el, index) => (
-					<Todo el={el} index={index} />
+					<Todo key={index} el={el} index={index} />
 				))}
 			</ul>
 		</>
