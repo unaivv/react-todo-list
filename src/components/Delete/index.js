@@ -1,4 +1,4 @@
-import { connect } from "react-redux"
+import { connect } from "../../hoc/connect"
 
 import { deleteTodo } from "../../actions"
 

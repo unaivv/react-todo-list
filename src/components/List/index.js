@@ -1,5 +1,5 @@
 import React from "react"
-import { connect } from "react-redux"
+import { connect } from '../../hoc/connect'
 
 import Todo from '../Todo'
 
@@ -14,7 +14,6 @@ const mapStateToProps = (state) => {
 const ConnectedList = ({ todos }) => {
 	return (
 		<>
-			{console.log(todos)}
 			{todos.length === 0 && "There is no TODOs here. Add one here ⬇️"}
 			<ul>
 				{todos.map((el, index) => (

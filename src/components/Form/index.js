@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { connect } from "react-redux"
+import { connect } from "../../hoc/connect"
 import { addTodo } from "../../actions"
 
 function mapDispatchToProps(dispatch) {

@@ -3,7 +3,6 @@ import rootReducer from "./reducers/index";
 
 const getDataLocal = () => {
 	const data = JSON.parse(localStorage.getItem('todos'))
-	console.log(data)
     if(data){
         return data
     }else{

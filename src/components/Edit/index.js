@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { connect } from "react-redux"
+import { connect } from "../../hoc/connect"
 
 import { editTodo } from "../../actions"
 
